@@ -1,0 +1,10 @@
+---
+# .github/ISSUE_TEMPLATE/config.yaml
+
+default: bug_report_en.md
+
+templates:
+  - name: "Bug Report (EN)"
+    path: "bug_report_en.md"
+  - name: "Bug Report (PT)"
+    path: "bug_report_pt.md"

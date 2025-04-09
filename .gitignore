@@ -1,0 +1,52 @@
+# .gitignore
+# Helps prevent unwanted files (like logs, build artifacts, and sensitive data) from being committed to version control.
+# More on Git Ignore: https://git-scm.com/docs/gitignore
+
+# User/system files
+.DS_Store
+Thumbs.db
+.bash_history
+*.swp
+*.swo
+*~
+
+# Logs and temp files
+*.log
+*.tmp
+*.lock
+*.out
+*.bak
+crash.log
+
+# GitHub Actions
+.github/workflows/*.log
+.github/actions/*.log
+.github/actions/cache
+
+# VS Code
+.vscode/
+.vscode-test/
+.vscode-extensions/
+
+# Dependencies and build artifacts
+node_modules/
+dist/
+build/
+*.pyc
+*.class
+*.o
+
+# Environment files
+*.env*
+
+# Lock files
+package-lock.json
+yarn.lock
+pipfile.lock
+
+# IDEs and editors
+.idea/
+*.iml
+*.sublime-workspace
+*.sublime-project
+*.shellcheck

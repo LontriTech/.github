@@ -1,0 +1,14 @@
+# .gitattributes
+# Helps prevent line ending issues and inconsistent diffs across different OS and tools.
+# More on Git Attributes: https://git-scm.com/docs/gitattributes
+
+# Auto identify text files && \
+# Sets line endings to LF && \
+# Sets charset to UTF-8 && \
+# Fixes whitespaces
+* text=auto eol=lf working-tree-encoding=UTF-8 whitespace=fix
+
+# Git Export ignores these files
+.editorconfig export-ignore
+.gitattributes export-ignore
+.gitignore export-ignore
