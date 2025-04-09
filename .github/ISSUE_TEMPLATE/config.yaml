@@ -1,10 +1,17 @@
 ---
 # .github/ISSUE_TEMPLATE/config.yaml
 
+blank_issues_enabled: false
+
 default: bug_report_en.md
 
 templates:
   - name: "Bug Report (EN)"
-    path: "bug_report_en.md"
+    path: "001_bug_report_en.md"
   - name: "Bug Report (PT)"
-    path: "bug_report_pt.md"
+    path: "002_bug_report_pt.md"
+
+contact_links:
+  - name: LontriTech Community Discussions
+    url: https://github.com/orgs/LontriTech/discussions
+    about: Please ask and answer questions here.
